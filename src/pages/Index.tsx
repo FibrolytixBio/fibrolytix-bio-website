@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import TeamSection from '@/components/TeamSection';
-import ProductsSection from '@/components/ProductsSection';
+import PlatformSection from '@/components/PlatformSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
@@ -14,7 +14,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <TeamSection />
-      <ProductsSection />
+      <PlatformSection />
       <ContactSection />
       <Footer />
       <BackToTop />

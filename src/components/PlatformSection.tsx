@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 
-const ProductsSection = () => {
+const PlatformSection = () => {
   const platformFeatures = [
     'Proprietary high-throughput screening assay',
     'Agentic literature, database, and experimental data mining',
@@ -21,7 +21,7 @@ const ProductsSection = () => {
         </h2>
 
         <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
-          We’re developing an AI-driven, agentic “lab-in-the-loop” platform that integrates high-content microscopy, machine learning, and autonomous AI to rapidly nominate, test, and optimize anti-fibrotic compounds. Starting with our proprietary cardiac fibrosis assay, experimental results from our scientists are continuously fed back into the system to refine future predictions.
+          We're developing an AI-driven, agentic "lab-in-the-loop" platform that integrates high-content microscopy, machine learning, and autonomous AI to rapidly nominate, test, and optimize anti-fibrotic compounds. Starting with our proprietary cardiac fibrosis assay, experimental results from our scientists are continuously fed back into the system to refine future predictions.
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -148,4 +148,4 @@ const ProductsSection = () => {
   );
 };
 
-export default ProductsSection;
+export default PlatformSection;
