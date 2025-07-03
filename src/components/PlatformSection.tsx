@@ -8,7 +8,7 @@ const PlatformSection = () => {
   ];
 
   const timelineItems = [
-    { status: 'completed', title: 'Proprietary Assay Developed', description: 'Read the paper here', link: 'https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.124.071956' },
+    { status: 'completed', title: 'Proprietary Assay Developed', description: 'Read the paper below' },
     { status: 'current', title: 'Agentic Platform Development', description: 'Try the demo below' },
     { status: 'future', title: 'In Vitro Compound Validation', description: 'Q4 2025 target' },
   ];
@@ -75,18 +75,7 @@ const PlatformSection = () => {
                     <div className="text-center">
                       <h4 className="font-semibold text-foreground mb-1">{item.title}</h4>
                       <p className="text-sm text-muted-foreground">
-                        {item.link ? (
-                          <a 
-                            href={item.link} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-primary hover:text-primary/80 underline"
-                          >
-                            {item.description}
-                          </a>
-                        ) : (
-                          item.description
-                        )}
+                        {item.description}
                       </p>
                     </div>
                   </div>
@@ -114,18 +103,7 @@ const PlatformSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">{item.title}</h4>
                     <p className="text-sm text-muted-foreground">
-                      {item.link ? (
-                        <a 
-                          href={item.link} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-primary hover:text-primary/80 underline"
-                        >
-                          {item.description}
-                        </a>
-                      ) : (
-                        item.description
-                      )}
+                      {item.description}
                     </p>
                   </div>
                 </div>
@@ -136,12 +114,20 @@ const PlatformSection = () => {
 
         {/* Call to Action */}
         <div className="text-center animate-fade-in-up">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-            onClick={() => window.open('https://cf-compound-selection-demo.netlify.app/analyze', '_blank')}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-xl"
+              onClick={() => window.open('https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.124.071956', '_blank')}
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-4 mx-10 text-lg"
             >
-            Try Demo
+              Read Proprietary Assay Paper
             </Button>
+            <Button
+              onClick={() => window.open('https://cf-compound-selection-demo.netlify.app/analyze', '_blank')}
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-4  mx-10 text-lg"
+            >
+              Try Agentic System Demo
+            </Button>
+          </div>
         </div>
       </div>
     </section>
