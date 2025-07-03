@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 import rectangleLogo from '@/assets/logo/rectangle.svg';
 
 const Navigation = () => {
@@ -26,7 +25,7 @@ const Navigation = () => {
     { label: 'Home', id: 'home' },
     { label: 'About', id: 'about' },
     { label: 'Team', id: 'team' },
-    { label: 'Products', id: 'products' },
+    { label: 'Platform', id: 'platform' },
     { label: 'Contact', id: 'contact' },
   ];
 

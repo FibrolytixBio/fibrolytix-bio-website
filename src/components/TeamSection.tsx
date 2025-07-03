@@ -37,10 +37,10 @@ const TeamSection = () => {
       id: 'tim',
       name: 'Timothy McKinsey, PhD',
       title: 'Co-founder, Scientific Lead',
-      bio: 'Internationally recognized fibrosis biologist and drug discovery expert. Endowed Professor at the University of Colorado and experienced biotech advisor, with a strong record of NIH and industry-funded research, including prior NIH SBIR awards.',
+      bio: 'As Co-Founder and Scientific Lead of Fibrolytix Bio, Tim leverages two decades of fibrosis biology to steer our therapeutic pipeline. He is the Joseph and Rose LaConte Cardiology Endowed Chair and Professor of Medicine at the University of Colorado Anschutz, and founding director of the Consortium for Fibrosis Research & Translation. Tim has authored more than 220 peer-reviewed papers that have garnered over 28,000 citations, defining epigenetic and fibroblast-targeted strategies for heart failure. He has secured multi-million-dollar NIH R-series, SBIR, and American Heart Association funding and advises several biotech companies. A Fellow of the International Society for Heart Research, Tim translates breakthrough science into investable drug programs.',
       image: timMckinseyPfp,
       linkedIn: 'https://www.linkedin.com/in/tim-mckinsey-93721b38/',
-      scholar: 'https://scholar.google.com/citations?user=VcxlCp8AAAAJ&hl=en',
+      scholar: 'https://scholar.google.com/citations?hl=en&user=VcxlCp8AAAAJ',
     },
   ];
 
