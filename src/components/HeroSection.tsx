@@ -1,4 +1,5 @@
 import heroImage from '@/assets/hero-image.jpg';
+import rectangleLogo from '@/assets/logo/rectangle.svg';
 
 const HeroSection = () => {
   return (
@@ -17,7 +18,7 @@ const HeroSection = () => {
           <div className="animate-fade-in-up">
             <div className="mb-6">
               <img
-                src="/logo/rectangle.svg"
+                src={rectangleLogo}
                 alt="Fibrolytix Bio"
                 className="h-20 w-auto"
               />

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import rectangleLogo from '@/assets/logo/rectangle.svg';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +43,7 @@ const Navigation = () => {
           onClick={() => scrollToSection('home')}
         >
           <img
-            src="/logo/rectangle.svg"
+            src={rectangleLogo}
             alt="Fibrolytix Bio"
             className="h-10 w-auto"
           />

@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import joshTraversPfp from '@/assets/team/josh_travers_pfp.jpeg';
+import roshanKernPfp from '@/assets/team/roshan_kern_pfp.jpeg';
+import gregoryWayPfp from '@/assets/team/gregory_way_pfp.jpeg';
+import timMckinseyPfp from '@/assets/team/tim_mckinsey_pfp.jpg';
 
 const TeamSection = () => {
   const teamMembers = [
@@ -7,7 +11,7 @@ const TeamSection = () => {
       name: 'Joshua Travers, PhD',
       title: 'Co-founder, CEO',
       bio: 'As Co-Founder and CEO of Fibrolytix Bio, Josh leads therapeutic strategy and scientific direction, drawing on over a decade of experience in cardiac biology and fibrosis. A recognized leader in the field, he has received the Gill Heart & Vascular Institute and ISHR Early Career Investigator Awards, and served as PI on multiple NIH-funded projects. Josh pioneered machine learning–driven phenotypic screening for cardiac fibroblasts and has published in top journals including Circulation, JACC, and JCI. At Fibrolytix, he is focused on translating these innovations into first-in-class therapies for fibrotic disease.',
-      image: '/team/josh_travers_pfp.jpeg',
+      image: joshTraversPfp,
       linkedIn: 'https://www.linkedin.com/in/joshua-travers-66705226/',
       scholar: 'https://scholar.google.com/citations?hl=en&user=uX_fFvQAAAAJ',
     },
@@ -16,7 +20,7 @@ const TeamSection = () => {
       name: 'Roshan Kern',
       title: 'Co-founder, AI Lead',
       bio: 'As Co-Founder and AI Lead of Fibrolytix Bio, Roshan leads the development of agentic AI systems that accelerate the discovery of therapies for fibrotic diseases. He has experience developing AI-driven systems for drug discovery at Recursion Pharmaceuticals, MIT, and Case Western Reserve University. At Fibrolytix, he develops and deploys large language model workflows that power the lab-in-the-loop infrastructure at the heart of Fibrolytix’s platform. Roshan has authored research in computational biology and AI, and is passionate about using intelligent systems to close the gap between data and treatment.',
-      image: '/team/roshan_kern_pfp.jpeg',
+      image: roshanKernPfp,
       linkedIn: 'https://www.linkedin.com/in/roshan-kern/',
       scholar: 'https://scholar.google.com/citations?hl=en&user=Odynd38AAAAJ',
     },
@@ -25,7 +29,7 @@ const TeamSection = () => {
       name: 'Gregory Way, PhD',
       title: 'Co-founder, Data Science Lead',
       bio: 'As Co-Founder and Data Science Lead of Fibrolytix Bio, Greg directs the computational method development, data, and open-source strategy to ensure reproducible research. He is an Assistant Professor of Biomedical Informatics at The University of Colorado. He has over a decade of experience with computational biology and machine learning applied to improving human health. He received his PhD from University of Pennsylvania in Genomics and Computational Biology, and performed a postdoc at The Broad Institute of MIT and Harvard in Microscopy Image Analysis and Drug Discovery. He has received awards from The American Heart Association, The Gilbert Family Foundation, Alex\'s Lemonade Stand Foundation, and the NIH.',
-      image: '/team/gregory_way_pfp.jpeg',
+      image: gregoryWayPfp,
       linkedIn: 'https://www.linkedin.com/in/gregorypway/',
       scholar: 'https://scholar.google.com/citations?hl=en&user=iDKZaA4AAAAJ',
     },
@@ -34,7 +38,7 @@ const TeamSection = () => {
       name: 'Timothy McKinsey, PhD',
       title: 'Co-founder, Scientific Lead',
       bio: 'Internationally recognized fibrosis biologist and drug discovery expert. Endowed Professor at the University of Colorado and experienced biotech advisor, with a strong record of NIH and industry-funded research, including prior NIH SBIR awards.',
-      image: '/team/tim_mckinsey_pfp.jpg',
+      image: timMckinseyPfp,
       linkedIn: 'https://www.linkedin.com/in/tim-mckinsey-93721b38/',
       scholar: 'https://scholar.google.com/citations?user=VcxlCp8AAAAJ&hl=en',
     },
