@@ -2,7 +2,7 @@
 
 ## Project info
 
-**Description**: AI-augmented phenotypic screening to reverse fibrosis
+**Description**: AI-first phenotypic screening to reverse fibrosis
 
 ## How can I edit this code?
 

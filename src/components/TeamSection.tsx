@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import joshTraversPfp from '@/assets/team/josh_travers_pfp.jpeg';
 import roshanKernPfp from '@/assets/team/roshan_kern_pfp.jpeg';
 import gregoryWayPfp from '@/assets/team/gregory_way_pfp.jpeg';

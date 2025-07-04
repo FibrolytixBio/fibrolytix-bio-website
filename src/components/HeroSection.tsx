@@ -24,7 +24,7 @@ const HeroSection = () => {
               />
             </div>
             <h2 className="text-2xl lg:text-3xl text-primary font-semibold mb-8">
-              AI-augmented phenotypic screening to reverse fibrosis
+              AI-first phenotypic screening to reverse fibrosis
             </h2>
             <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
               We merge high-content imaging with autonomous AI agents to discover 
