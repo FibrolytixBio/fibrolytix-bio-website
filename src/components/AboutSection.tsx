@@ -15,7 +15,7 @@ const AboutSection = () => {
               <span className="text-primary font-semibold">$422 billion annually</span>{' '}
               in the U.S. Despite its pivotal role, there are currently{' '}
               <span className="text-primary font-semibold">0 approved therapies</span>{' '}
-              that directly reverse fibrosis, leaving an urgent unmet need for millions of patients.
+              that target the root cause, leaving an urgent unmet need for millions of patients.
             </p>
             
             <p className="text-foreground">
@@ -34,7 +34,7 @@ const AboutSection = () => {
             </div>
             <div className="p-6 bg-cloud rounded-lg animate-fade-in">
               <div className="text-3xl font-bold text-primary mb-2">SOTA</div>
-              <div className="text-sm text-muted-foreground">proprietary cardiac fibrosis treatment assay</div>
+              <div className="text-sm text-muted-foreground">proprietary cardiac fibrosis phenotype assay</div>
             </div>
             <div className="p-6 bg-cloud rounded-lg animate-fade-in">
               <div className="text-3xl font-bold text-primary mb-2">AI-First</div>
