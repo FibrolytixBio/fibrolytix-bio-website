@@ -7,7 +7,7 @@ const TeamSection = () => {
   const teamMembers = [
     {
       id: 'josh',
-      name: 'Joshua Travers, PhD',
+      name: 'Joshua Travers, PhD (Deceased)',
       title: 'Co-founder, CEO',
       bio: 'As Co-Founder and CEO of Fibrolytix Bio, Josh leads therapeutic strategy and scientific direction, drawing on over a decade of experience in cardiac biology and fibrosis. A recognized leader in the field, he has received the Gill Heart & Vascular Institute and ISHR Early Career Investigator Awards, and served as PI on multiple NIH-funded projects. Josh pioneered machine learning–driven phenotypic screening for cardiac fibroblasts and has published in top journals including Circulation, JACC, and JCI. At Fibrolytix, he is focused on translating these innovations into first-in-class therapies for fibrotic disease.',
       image: joshTraversPfp,
