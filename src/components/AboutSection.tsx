@@ -33,8 +33,8 @@ const AboutSection = () => {
               <div className="text-sm text-muted-foreground">of deaths in industrialized nations involve fibrosis</div>
             </div>
             <div className="p-6 bg-cloud rounded-lg animate-fade-in">
-              <div className="text-3xl font-bold text-primary mb-2">SOTA</div>
-              <div className="text-sm text-muted-foreground">proprietary cardiac fibrosis phenotype assay</div>
+              <div className="text-3xl font-bold text-primary mb-2">2x</div>
+              <div className="text-sm text-muted-foreground">more accurate proprietary assay than previouse SOTA</div>
             </div>
             <div className="p-6 bg-cloud rounded-lg animate-fade-in">
               <div className="text-3xl font-bold text-primary mb-2">AI-First</div>
